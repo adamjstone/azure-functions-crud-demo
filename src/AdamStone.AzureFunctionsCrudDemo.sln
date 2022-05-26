@@ -3,7 +3,25 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.32126.315
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AdamStone.AzureFunctionsCrudDemo.Domain", "AdamStone.AzureFunctionsCrudDemo.Domain\AdamStone.AzureFunctionsCrudDemo.Domain.csproj", "{3EE7DC5D-7F77-41CB-8EE8-455B89B40B32}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AdamStone.AzureFunctionsCrudDemo.Functions", "AdamStone.AzureFunctionsCrudDemo.Functions\AdamStone.AzureFunctionsCrudDemo.Functions.csproj", "{90A1F053-0784-4860-90EC-99CD2741F185}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3EE7DC5D-7F77-41CB-8EE8-455B89B40B32}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3EE7DC5D-7F77-41CB-8EE8-455B89B40B32}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3EE7DC5D-7F77-41CB-8EE8-455B89B40B32}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3EE7DC5D-7F77-41CB-8EE8-455B89B40B32}.Release|Any CPU.Build.0 = Release|Any CPU
+		{90A1F053-0784-4860-90EC-99CD2741F185}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90A1F053-0784-4860-90EC-99CD2741F185}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90A1F053-0784-4860-90EC-99CD2741F185}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90A1F053-0784-4860-90EC-99CD2741F185}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
